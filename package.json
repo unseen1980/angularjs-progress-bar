@@ -1,0 +1,19 @@
+{
+  "name": "angularjs-progress-bar",
+  "version": "0.0.1",
+  "description": "AngularJS progress bar directive based on HTML5 progress semantic.",
+  "main": "angularjs-progress-bar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "progress",
+    "bar",
+    "angularjs",
+    "directive",
+    "progress",
+    "html5"
+  ],
+  "author": "Christos Koutsiaris",
+  "license": "ISC"
+}

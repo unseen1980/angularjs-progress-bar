@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>AngularJs Progress Bar</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.0/angular.min.js" charset="utf-8"></script>
+  <script src="../library/angularjs-progress-bar.min.js" charset="utf-8"></script>
+  <script src="app.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="../library/style.min.css" media="screen" title="no title" charset="utf-8">
+</head>
+
+<body>
+  <div ng-app="myApp" ng-controller="main">
+    <select ng-model="loaderValue" ng-options="item as item + '%' for item in items">
+    </select>
+    <br>
+    <br>
+    <br>
+    <progress-bar prvalue="{{loaderValue}}" prmax="100" prloading="false"></progress-bar>
+  </div>
+</body>
+
+</html>
