@@ -11,3 +11,6 @@ AngularJS progress bar directive based on HTML5 progress semantic.
 * **prvalue** - Current progress value. It can be dynamic. (mandatory)
 * **prmax** - Max value of your progress bar. (mandatory)
 * **prloading** - Is boolean and can be used when you don't know the current progress value. (optional)
+
+## Demo
+* In demo folder you can find a simple example
